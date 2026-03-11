@@ -118,7 +118,8 @@ else:
     with st.form("form_nps"):
         st.subheader("Sua Identificação")
         nome_colaborador = st.text_input("Qual o seu nome?")
-        loja_colaborador = st.selectbox("Qual a sua loja?", ["Loja Centro", "Loja Shopping", "Loja Zona Sul", "Matriz"])
+        loja_colaborador = st.selectbox("Qual a sua loja?", ["Loja Yubiso XV", "Loja Yubiso Marisa", "Loja Bazar", "Loja BALI", "Loja LINO", "Loja MYNO", "Loja Variedades SJP", "Loja AMORA", "Loja Jardim do Paraná", "Loja Armarinhos do Sul", "Loja AUBY"])
+
         
         st.subheader("Avaliação Geral")
         nps_score = st.slider("Em uma escala de 0 a 10, o quanto você recomendaria trabalhar nesta loja?", 0, 10, 10)
